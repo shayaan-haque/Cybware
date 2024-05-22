@@ -35,5 +35,4 @@ class CourseTableViewCell: UITableViewCell {
         title.text = courseList.title
         courseDescription.text = courseList.description
     }
-    
 }
