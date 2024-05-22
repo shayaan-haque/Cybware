@@ -13,6 +13,7 @@
 		05D8E1ED2BFCAFEC0069B94B /* LearningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */; };
 		05D8E1EF2BFCB0770069B94B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8E1EE2BFCB0770069B94B /* Profile.storyboard */; };
 		05D8E1F12BFCB0870069B94B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */; };
+		D505130F2BFE030B0004BACB /* PersonalInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505130E2BFE030B0004BACB /* PersonalInfoTableViewController.swift */; };
 		D5E1C5272BFCA85E0033D2C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C5262BFCA85E0033D2C2 /* AppDelegate.swift */; };
 		D5E1C5292BFCA85E0033D2C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C5282BFCA85E0033D2C2 /* SceneDelegate.swift */; };
 		D5E1C52B2BFCA85E0033D2C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C52A2BFCA85E0033D2C2 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 		05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTableViewController.swift; sourceTree = "<group>"; };
 		05D8E1EE2BFCB0770069B94B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		D505130E2BFE030B0004BACB /* PersonalInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoTableViewController.swift; sourceTree = "<group>"; };
 		D5E1C5232BFCA85E0033D2C2 /* Cybware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cybware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E1C5262BFCA85E0033D2C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5E1C5282BFCA85E0033D2C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D53447CE2BFDF1E600914A4F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				05D8E1EE2BFCB0770069B94B /* Profile.storyboard */,
+				D505130E2BFE030B0004BACB /* PersonalInfoTableViewController.swift */,
+				05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		D5E1C51A2BFCA85D0033D2C2 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +94,7 @@
 				D5E1C5342BFCA85E0033D2C2 /* Info.plist */,
 				05D8E1E62BFCAE190069B94B /* HomePage.storyboard */,
 				05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */,
-				05D8E1EE2BFCB0770069B94B /* Profile.storyboard */,
-				05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */,
+				D53447CE2BFDF1E600914A4F /* Profile */,
 				05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */,
 				05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */,
 				D5E1C5422BFD19EF0033D2C2 /* CourseTableViewCell.swift */,
@@ -173,6 +184,7 @@
 				05D8E1E92BFCAECA0069B94B /* HomePageViewController.swift in Sources */,
 				D5E1C52B2BFCA85E0033D2C2 /* ViewController.swift in Sources */,
 				D5E1C5412BFD18BC0033D2C2 /* CourseDetails.swift in Sources */,
+				D505130F2BFE030B0004BACB /* PersonalInfoTableViewController.swift in Sources */,
 				D5E1C5272BFCA85E0033D2C2 /* AppDelegate.swift in Sources */,
 				D5E1C5292BFCA85E0033D2C2 /* SceneDelegate.swift in Sources */,
 				05D8E1ED2BFCAFEC0069B94B /* LearningTableViewController.swift in Sources */,
