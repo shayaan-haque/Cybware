@@ -17,13 +17,12 @@ class LearningTableViewController: UITableViewController {
     }
 
     
-var courseList : [CourseDetails] = [CourseDetails(cImage: UIImage(named: "Introduction")!, title: "Introduction ", description: "This Module will deal with the basics in the domain of Cybersecurity"),CourseDetails(cImage: UIImage(named: "SocialEngineering")!, title: "Phishing", description: "What is this term ? How is it related to cyber security ? Lets find out"),CourseDetails(cImage: UIImage(named: "Phishing")!, title: "Social Engineering", description: "The Tactics of Manupulating and decieving people to  gain control over people's confidential data"),CourseDetails(cImage: UIImage(named: "Networking")!, title: "Networking", description: "a set of rules and configurations designed to protect the integrity, confidentiality and accessibility of computer networks ")]
+var courseList : [CourseDetails] = [CourseDetails(cImage: UIImage(named: "img1")!, title: "ABC", description: "ABB"),CourseDetails(cImage: UIImage(named: "img1")!, title: "ABC1", description: "ABB2"),CourseDetails(cImage: UIImage(named: "img1")!, title: "ABC", description: "ABB"),CourseDetails(cImage: UIImage(named: "img1")!, title: "ABC1", description: "ABB2"),CourseDetails(cImage: UIImage(named: "img1")!, title: "ABC", description: "ABB")]
     
     
     @IBOutlet var CTable: UITableView!
     
     override func viewDidLoad() {
-        //cellLayoutMarginsFollowReadableWidth
         super.viewDidLoad()
 
     }
@@ -46,6 +45,7 @@ var courseList : [CourseDetails] = [CourseDetails(cImage: UIImage(named: "Introd
         
         let courseList1 = courseList[indexPath.row]
         cell.updateUI(with: courseList1)
+
         // Configure the cell...
 
         return cell
@@ -54,16 +54,7 @@ var courseList : [CourseDetails] = [CourseDetails(cImage: UIImage(named: "Introd
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-    
-//    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        let headerView = UIView()
-//        headerView.backgroundColor = view.backgroundColor
-//        
-//        return headerView
-//    }
-//    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        return 20
-//    }
+
 
     /*
     // Override to support conditional editing of the table view.
