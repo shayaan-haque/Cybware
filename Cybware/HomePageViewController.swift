@@ -8,6 +8,13 @@
 import UIKit
 
 class HomePageViewController: UIViewController {
+    
+    required init?(coder: NSCoder)
+    {
+        super.init(coder: coder)
+        self.tabBarItem.title = "Homepage"
+        self.tabBarItem.image = UIImage(systemName: "homekit")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

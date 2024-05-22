@@ -26,6 +26,9 @@
 		D5E1C52E2BFCA85E0033D2C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D5E1C52D2BFCA85E0033D2C2 /* Base */; };
 		D5E1C5302BFCA85E0033D2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E1C52F2BFCA85E0033D2C2 /* Assets.xcassets */; };
 		D5E1C5332BFCA85E0033D2C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D5E1C5322BFCA85E0033D2C2 /* Base */; };
+		D5E1C5412BFD18BC0033D2C2 /* CourseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C5402BFD18BC0033D2C2 /* CourseDetails.swift */; };
+		D5E1C5432BFD19EF0033D2C2 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C5422BFD19EF0033D2C2 /* CourseTableViewCell.swift */; };
+		D5E1C5452BFD21B40033D2C2 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1C5442BFD21B40033D2C2 /* Courses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		D5E1C52F2BFCA85E0033D2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5E1C5322BFCA85E0033D2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5E1C5342BFCA85E0033D2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E1C5402BFD18BC0033D2C2 /* CourseDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetails.swift; sourceTree = "<group>"; };
+		D5E1C5422BFD19EF0033D2C2 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		D5E1C5442BFD21B40033D2C2 /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,15 +92,13 @@
 				D5E1C5282BFCA85E0033D2C2 /* SceneDelegate.swift */,
 				D5E1C52A2BFCA85E0033D2C2 /* ViewController.swift */,
 				D5E1C52C2BFCA85E0033D2C2 /* Main.storyboard */,
-				D5E1C52F2BFCA85E0033D2C2 /* Assets.xcassets */,
 				D5E1C5312BFCA85E0033D2C2 /* LaunchScreen.storyboard */,
 				D5E1C5342BFCA85E0033D2C2 /* Info.plist */,
 				05D8E1E62BFCAE190069B94B /* HomePage.storyboard */,
 				05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */,
-				05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */,
-				05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */,
 				05D8E1EE2BFCB0770069B94B /* Profile.storyboard */,
 				05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */,
+
 				C4F331DB2BFDADCC0081B4F1 /* Progress.xib */,
 				C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */,
 				C4F331DF2BFDAF150081B4F1 /* View.xib */,
@@ -102,6 +106,14 @@
 				C4F331E32BFDAFB10081B4F1 /* Highlights.xib */,
 				C4F331E52BFDB2590081B4F1 /* HighlightsCollectionViewCell.swift */,
 				C4F331E72BFDB37E0081B4F1 /* HomePageDataModel.swift */,
+
+				05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */,
+				05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */,
+				D5E1C5422BFD19EF0033D2C2 /* CourseTableViewCell.swift */,
+				D5E1C5402BFD18BC0033D2C2 /* CourseDetails.swift */,
+				D5E1C5442BFD21B40033D2C2 /* Courses.swift */,
+				D5E1C52F2BFCA85E0033D2C2 /* Assets.xcassets */,
+
 			);
 			path = Cybware;
 			sourceTree = "<group>";
@@ -183,16 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				C4F331E22BFDAF660081B4F1 /* CertificateCollectionViewCell.swift in Sources */,
 				C4F331E82BFDB37E0081B4F1 /* HomePageDataModel.swift in Sources */,
-				05D8E1F12BFCB0870069B94B /* ProfileTableViewController.swift in Sources */,
 				05D8E1E92BFCAECA0069B94B /* HomePageViewController.swift in Sources */,
-				D5E1C52B2BFCA85E0033D2C2 /* ViewController.swift in Sources */,
 				C4F331DE2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift in Sources */,
+
+				D5E1C5432BFD19EF0033D2C2 /* CourseTableViewCell.swift in Sources */,
+				05D8E1F12BFCB0870069B94B /* ProfileTableViewController.swift in Sources */,
+				D5E1C52B2BFCA85E0033D2C2 /* ViewController.swift in Sources */,
+				D5E1C5412BFD18BC0033D2C2 /* CourseDetails.swift in Sources */,
+
 				D5E1C5272BFCA85E0033D2C2 /* AppDelegate.swift in Sources */,
 				D5E1C5292BFCA85E0033D2C2 /* SceneDelegate.swift in Sources */,
 				C4F331E62BFDB2590081B4F1 /* HighlightsCollectionViewCell.swift in Sources */,
 				05D8E1ED2BFCAFEC0069B94B /* LearningTableViewController.swift in Sources */,
+				D5E1C5452BFD21B40033D2C2 /* Courses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
