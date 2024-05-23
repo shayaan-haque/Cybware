@@ -71,16 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D53447CE2BFDF1E600914A4F /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */,
-				056AF3C92BFE1127007CF5E4 /* Profile.storyboard */,
-				056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
 		D5E1C51A2BFCA85D0033D2C2 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +98,9 @@
 				D5E1C5342BFCA85E0033D2C2 /* Info.plist */,
 				05D8E1E62BFCAE190069B94B /* HomePage.storyboard */,
 				05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */,
-				D53447CE2BFDF1E600914A4F /* Profile */,
+				056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */,
+				056AF3C92BFE1127007CF5E4 /* Profile.storyboard */,
+				056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */,
 				C4F331DB2BFDADCC0081B4F1 /* Progress.xib */,
 				C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */,
 				C4F331DF2BFDAF150081B4F1 /* View.xib */,
