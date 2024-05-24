@@ -14,6 +14,7 @@
 		05D8E1E92BFCAECA0069B94B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */; };
 		05D8E1EB2BFCAFC70069B94B /* Learning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */; };
 		05D8E1ED2BFCAFEC0069B94B /* LearningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */; };
+
 		C4F331DC2BFDADCC0081B4F1 /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F331DB2BFDADCC0081B4F1 /* Progress.xib */; };
 		C4F331DE2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */; };
 		C4F331E02BFDAF150081B4F1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F331DF2BFDAF150081B4F1 /* View.xib */; };
@@ -40,6 +41,7 @@
 		05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Learning.storyboard; sourceTree = "<group>"; };
 		05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTableViewController.swift; sourceTree = "<group>"; };
+
 		C4F331DB2BFDADCC0081B4F1 /* Progress.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Progress.xib; sourceTree = "<group>"; };
 		C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4F331DF2BFDAF150081B4F1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -98,9 +100,11 @@
 				D5E1C5342BFCA85E0033D2C2 /* Info.plist */,
 				05D8E1E62BFCAE190069B94B /* HomePage.storyboard */,
 				05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */,
+
 				056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */,
 				056AF3C92BFE1127007CF5E4 /* Profile.storyboard */,
 				056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */,
+
 				C4F331DB2BFDADCC0081B4F1 /* Progress.xib */,
 				C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */,
 				C4F331DF2BFDAF150081B4F1 /* View.xib */,

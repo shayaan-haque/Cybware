@@ -26,6 +26,7 @@ class ProfileTableViewController: UITableViewController {
                profile_picture.layer.borderColor = UIColor.white.cgColor
                profile_picture.layer.borderWidth = 3
 
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
