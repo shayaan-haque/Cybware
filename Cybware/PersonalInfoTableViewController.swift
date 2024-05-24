@@ -1,31 +1,16 @@
 //
-//  ProfileTableViewController.swift
+//  PersonalInfoTableViewController.swift
 //  Cybware
 //
-//  Created by Batch-2 on 21/05/24.
+//  Created by Shayaan Haque on 22/05/24.
 //
 
 import UIKit
 
-class ProfileTableViewController: UITableViewController {
-    
-    
-    required init?(coder: NSCoder)
-    {
-        super.init(coder: coder)
-        self.tabBarItem.title = "Profile"
-        self.tabBarItem.image = UIImage(systemName: "person")
-    }
+class PersonalInfoTableViewController: UITableViewController {
 
-    @IBOutlet var profile_picture: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        profile_picture.layer.cornerRadius = profile_picture.frame.size.width / 2
-               profile_picture.clipsToBounds = true
-               profile_picture.layer.borderColor = UIColor.white.cgColor
-               profile_picture.layer.borderWidth = 3
-
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -36,15 +21,15 @@ class ProfileTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
-//
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of rows
-//        return row.count
-//    }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 0
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 0
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
