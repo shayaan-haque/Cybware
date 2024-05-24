@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056AF3C72BFE10ED007CF5E4 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */; };
-		056AF3CA2BFE1127007CF5E4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056AF3C92BFE1127007CF5E4 /* Profile.storyboard */; };
-		056AF3CE2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */; };
 		05D8E1E72BFCAE190069B94B /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8E1E62BFCAE190069B94B /* HomePage.storyboard */; };
 		05D8E1E92BFCAECA0069B94B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */; };
 		05D8E1EB2BFCAFC70069B94B /* Learning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */; };
 		05D8E1ED2BFCAFEC0069B94B /* LearningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */; };
-
+		05D8E1EF2BFCB0770069B94B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D8E1EE2BFCB0770069B94B /* Profile.storyboard */; };
+		05D8E1F12BFCB0870069B94B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */; };
 		C4F331DC2BFDADCC0081B4F1 /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F331DB2BFDADCC0081B4F1 /* Progress.xib */; };
 		C4F331DE2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */; };
 		C4F331E02BFDAF150081B4F1 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F331DF2BFDAF150081B4F1 /* View.xib */; };
@@ -34,14 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
-		056AF3C92BFE1127007CF5E4 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoTableViewController.swift; sourceTree = "<group>"; };
 		05D8E1E62BFCAE190069B94B /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 		05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Learning.storyboard; sourceTree = "<group>"; };
 		05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTableViewController.swift; sourceTree = "<group>"; };
-
+		05D8E1EE2BFCB0770069B94B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		C4F331DB2BFDADCC0081B4F1 /* Progress.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Progress.xib; sourceTree = "<group>"; };
 		C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4F331DF2BFDAF150081B4F1 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -100,10 +96,8 @@
 				D5E1C5342BFCA85E0033D2C2 /* Info.plist */,
 				05D8E1E62BFCAE190069B94B /* HomePage.storyboard */,
 				05D8E1E82BFCAECA0069B94B /* HomePageViewController.swift */,
-
-				056AF3CD2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift */,
-				056AF3C92BFE1127007CF5E4 /* Profile.storyboard */,
-				056AF3C52BFE10ED007CF5E4 /* ProfileTableViewController.swift */,
+				05D8E1EE2BFCB0770069B94B /* Profile.storyboard */,
+				05D8E1F02BFCB0870069B94B /* ProfileTableViewController.swift */,
 
 				C4F331DB2BFDADCC0081B4F1 /* Progress.xib */,
 				C4F331DD2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift */,
@@ -112,12 +106,14 @@
 				C4F331E32BFDAFB10081B4F1 /* Highlights.xib */,
 				C4F331E52BFDB2590081B4F1 /* HighlightsCollectionViewCell.swift */,
 				C4F331E72BFDB37E0081B4F1 /* HomePageDataModel.swift */,
+
 				05D8E1EA2BFCAFC70069B94B /* Learning.storyboard */,
 				05D8E1EC2BFCAFEC0069B94B /* LearningTableViewController.swift */,
 				D5E1C5422BFD19EF0033D2C2 /* CourseTableViewCell.swift */,
 				D5E1C5402BFD18BC0033D2C2 /* CourseDetails.swift */,
 				D5E1C5442BFD21B40033D2C2 /* Courses.swift */,
 				D5E1C52F2BFCA85E0033D2C2 /* Assets.xcassets */,
+
 			);
 			path = Cybware;
 			sourceTree = "<group>";
@@ -180,13 +176,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D8E1EF2BFCB0770069B94B /* Profile.storyboard in Resources */,
 				05D8E1EB2BFCAFC70069B94B /* Learning.storyboard in Resources */,
 				05D8E1E72BFCAE190069B94B /* HomePage.storyboard in Resources */,
 				C4F331E42BFDAFB10081B4F1 /* Highlights.xib in Resources */,
 				C4F331DC2BFDADCC0081B4F1 /* Progress.xib in Resources */,
 				C4F331E02BFDAF150081B4F1 /* View.xib in Resources */,
 				D5E1C5302BFCA85E0033D2C2 /* Assets.xcassets in Resources */,
-				056AF3CA2BFE1127007CF5E4 /* Profile.storyboard in Resources */,
 				D5E1C5332BFCA85E0033D2C2 /* Base in Resources */,
 				D5E1C52E2BFCA85E0033D2C2 /* Base in Resources */,
 			);
@@ -199,15 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				C4F331E22BFDAF660081B4F1 /* CertificateCollectionViewCell.swift in Sources */,
 				C4F331E82BFDB37E0081B4F1 /* HomePageDataModel.swift in Sources */,
 				05D8E1E92BFCAECA0069B94B /* HomePageViewController.swift in Sources */,
 				C4F331DE2BFDADEC0081B4F1 /* ProgressCollectionViewCell.swift in Sources */,
+
 				D5E1C5432BFD19EF0033D2C2 /* CourseTableViewCell.swift in Sources */,
-				056AF3CE2BFE11AD007CF5E4 /* PersonalInfoTableViewController.swift in Sources */,
-				056AF3C72BFE10ED007CF5E4 /* ProfileTableViewController.swift in Sources */,
+				05D8E1F12BFCB0870069B94B /* ProfileTableViewController.swift in Sources */,
 				D5E1C52B2BFCA85E0033D2C2 /* ViewController.swift in Sources */,
 				D5E1C5412BFD18BC0033D2C2 /* CourseDetails.swift in Sources */,
+
 				D5E1C5272BFCA85E0033D2C2 /* AppDelegate.swift in Sources */,
 				D5E1C5292BFCA85E0033D2C2 /* SceneDelegate.swift in Sources */,
 				C4F331E62BFDB2590081B4F1 /* HighlightsCollectionViewCell.swift in Sources */,
